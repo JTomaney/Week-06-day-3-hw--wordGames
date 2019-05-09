@@ -4,7 +4,7 @@ const IsogramFinder = function (string) {
 
 IsogramFinder.prototype.isIsogram = function () {
   const timesLetterUsed = {};
-  const arrayOfLetters = this.string.split("")
+  const arrayOfLetters = this.string.toLowerCase().split("")
   arrayOfLetters.forEach(function (letter) {
 
   if (timesLetterUsed[letter]) {
