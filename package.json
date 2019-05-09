@@ -1,7 +1,6 @@
 {
   "name": "homework",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha specs"
@@ -11,5 +10,6 @@
   "dependencies": {},
   "devDependencies": {
     "mocha": "^6.1.4"
-  }
+  },
+  "description": ""
 }
